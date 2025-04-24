@@ -34,8 +34,8 @@ defmodule UeberauthDropbox.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:oauth2, "~> 1.0 or ~> 2.0"},
-      {:ueberauth, "~> 0.7.0"},
+      {:oauth2, "~> 2.1"},
+      {:ueberauth, "~> 0.10.0"},
       {:credo, ">= 0.0.0", only: [:dev, :test], runtime: false},
       {:ex_doc, ">= 0.0.0", only: [:dev], runtime: false},
     ]
